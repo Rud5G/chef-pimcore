@@ -1,0 +1,18 @@
+{
+    "id": "shares",
+    "shares": {
+        "pimcore": {
+            "comment": "pimcore Development Share",
+            "path": "/srv/www/pimcore",
+            "only user": "no",
+            "guest ok": "no",
+            "writeable": "yes",
+            "browseable": "yes",
+            "revalidate": "yes",
+            "valid users": ["developer"],
+            "create mask": "0664",
+            "directory mask": "0775" ,
+            "force user": "projectuser"
+        }
+    }
+}

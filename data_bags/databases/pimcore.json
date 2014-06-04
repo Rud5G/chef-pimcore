@@ -1,0 +1,12 @@
+{
+    "id": "pimcore",
+    "development": {
+        "type": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "username": "dbuser",
+        "password": "dbpass",
+        "dbname": "pimcore",
+        "name": "pimcore"
+    }
+}

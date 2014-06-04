@@ -1,0 +1,15 @@
+{
+    "id": "pimcore",
+    "enable": true,
+    "create_docroot": false,
+    "server_name": "pimcore.dev",
+    "server_aliases": [
+        "pimcore.zf2.dev"
+    ],
+    "docroot": "/srv/www/pimcore",
+    "directory_index": [ "index.php", "index.html" ],
+    "directory_options": [ "Indexes", "FollowSymLinks" ],
+    "template": "web_app.conf.erb",
+    "allow_override": "all",
+    "comment": "pimcore Virtualhost"
+}

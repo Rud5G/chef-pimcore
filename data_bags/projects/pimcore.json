@@ -1,0 +1,18 @@
+{
+    "id": "pimcore",
+    "projectdir": "/srv/www/pimcore",
+    "owner": "projectuser",
+    "group": "users",
+    "repository": "https://github.com/pimcore/pimcore.git",
+    "revision": "master",
+    "checkout_branch": "deploy",
+    "comment": "pimcore",
+    "use_composer": false,
+    "db_migration": false,
+    "db_databag_id": "pimcore",
+    "createdirs": ["website","website/var","plugins"],
+    "writabledirs": ["website/var","website/var/config","pimcore","plugins"],
+    "database_template": "pimcore-var-config-system.xml.erb",
+    "database_settings_file": "website/var/config/system.xml",
+    "db_file_when_installed": true
+}

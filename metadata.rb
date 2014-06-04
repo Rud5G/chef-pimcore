@@ -8,7 +8,7 @@ version          '0.1.0'
 
 
 depends 'baseserver'
-depends 'zf2'
+depends 'zf2', '~> 0.3.0'
 
 depends 'mysql', '~> 5.2.10'
 depends 'apache2', '1.10.4'
